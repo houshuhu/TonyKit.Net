@@ -3,8 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{85AD81CC-6224-4688-8C7D-8F2413D79B4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Web", "5.Web", "{8EEA98AB-28D2-4240-A49C-0FB958209CE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Common", "1.Common", "{1C6DF83B-00B8-42D8-8837-B47E4C49D413}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Service", "3.Service", "{B640B2E8-F6AD-4E5F-A8BB-BBF6E8329FE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Application", "4.Application", "{F6F8DDF1-4830-461A-AFE7-1714570BD602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TonyKit.Domain", "TonyKit.Domain\TonyKit.Domain.csproj", "{EDF7DBC0-C95A-4BAD-B30D-65DCF111AD23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.UnitTest", "6.UnitTest", "{DED11FAF-CCA9-4378-A1D4-740975C34B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TonyKit.Web", "TonyKit.Web\TonyKit.Web.csproj", "{C156DCA7-A329-459C-846A-90E19C8A9A8E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDF7DBC0-C95A-4BAD-B30D-65DCF111AD23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF7DBC0-C95A-4BAD-B30D-65DCF111AD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF7DBC0-C95A-4BAD-B30D-65DCF111AD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF7DBC0-C95A-4BAD-B30D-65DCF111AD23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C156DCA7-A329-459C-846A-90E19C8A9A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C156DCA7-A329-459C-846A-90E19C8A9A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C156DCA7-A329-459C-846A-90E19C8A9A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C156DCA7-A329-459C-846A-90E19C8A9A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDF7DBC0-C95A-4BAD-B30D-65DCF111AD23} = {85AD81CC-6224-4688-8C7D-8F2413D79B4C}
+		{C156DCA7-A329-459C-846A-90E19C8A9A8E} = {8EEA98AB-28D2-4240-A49C-0FB958209CE5}
 	EndGlobalSection
 EndGlobal

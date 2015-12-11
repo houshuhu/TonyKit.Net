@@ -1,0 +1,5 @@
+E:\housh\Git\TonyKit.Net\Lib\TonyKit.Domain.dll
+E:\housh\Git\TonyKit.Net\Lib\TonyKit.Domain.pdb
+E:\housh\Git\TonyKit.Net\TonyKit.Domain\obj\Debug\TonyKit.Domain.csprojResolveAssemblyReference.cache
+E:\housh\Git\TonyKit.Net\TonyKit.Domain\obj\Debug\TonyKit.Domain.dll
+E:\housh\Git\TonyKit.Net\TonyKit.Domain\obj\Debug\TonyKit.Domain.pdb
